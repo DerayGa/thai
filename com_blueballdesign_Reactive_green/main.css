@@ -96,11 +96,11 @@ img { -ms-interpolation-mode: bicubic; }
 Design Name:  Blueball Reactive
 Style Sheet: main.css
 Created: 6, April, 2015
-Last Modified: 14, May, 2015
-Version: 1.0
+Last Modified: 08, February, 2016
+Version: 1.1
 Author: Blueball Design
 www.blueballdesign.com
-Copyright 2015 Blueball Design LLC USA/Charlie Lockhart, All Rights Reserved
+Copyright 2015-2016 Blueball Design LLC USA/Charlie Lockhart, All Rights Reserved
 */
 
 /* @group Global Styling */
@@ -934,26 +934,16 @@ float: right;
 }
 
 .pagelet ul {
-	margin: 7px 0 0 0;
+	margin: 7px 0 0 12px;
+	list-style-position:inside;
 	padding: 0;
 }
 
 .pagelet ul li a {
-	list-style-type: none;
+	list-style-type: disc;
 	word-wrap: break-word;
 	margin-left: 0px;
 	padding: 0 0 0 0;
-}
-
-.pagelet ul li a::before {
-	vertical-align: middle;
-	display: inline-block;
-	font-family: fontawesome;
-	content: "\f046";
-	color: #3d353d;
-	width: 15px;
-	margin: -2px 4px 2px 12px;
-	text-decoration: non;
 }
 
 .pagelet ul li:hover {
